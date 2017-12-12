@@ -41,9 +41,9 @@ namespace StringCalculator.Tests
         }
 
         [TestMethod]
-        public void OneAndOneReturnsTwo()
+        public void FailMe()
         {
-            int expected = 2;
+            int expected = 1337;
             int actual = sc.Add("1,1");
             Assert.AreEqual(expected, actual);
         }
